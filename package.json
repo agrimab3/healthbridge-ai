@@ -1,1 +1,33 @@
-
+{
+    "name": "healthbridge-ai",
+    "version": "1.0.0",
+    "description": "AI-powered web application connecting underserved communities to healthcare resources",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "node server.js"
+    },
+    "keywords": [
+      "healthcare",
+      "ai",
+      "geolocation",
+      "social-impact",
+      "health-equity",
+      "sdg",
+      "community-health"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yourusername/healthbridge-ai.git"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    },
+    "dependencies": {
+      "body-parser": "^1.20.3",
+      "express": "^4.21.2",
+      "node-fetch": "^2.7.0"
+    }
+  }
